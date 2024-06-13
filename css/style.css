@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+@font-face {
+    font-family: 'plutocond_heavy';
+    src: url('../fonts/pluto_cond_heavy-webfont.woff2') format('woff2'),
+         url('../fonts/pluto_cond_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header {
+    padding:18px 0 10px 0;
+}
+.clsHelp{
+    list-style: none;
+}
+.clsHelp li, .clsHelp li a{
+    font-size: 20px;
+    line-height: 13px;
+    color: #60a1c1;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+}
+.clsHelp li a:hover{
+    text-decoration: none;
+}
+header .row{
+    align-items: end;
+}
+.img-fluid2 {
+    max-width: 100%;
+    height: auto;
+}
+.clsMenu .navbar{
+    padding-bottom: 0;
+}
+.clsMenu .nav-link{
+    padding-bottom: 0;
+    font-size: 14px;
+    color: #666666 !important;
+    font-family: "Helvetica";
+    position: relative;
+    padding: 0 16px !important;
+}
+.clsMenu .nav-link::after{
+    content: '|';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+.clsMenu .nav-link.clsNoLine::after{
+    display: none;
+}
+.clsMenu .nav-link:hover{
+    color: #80378c !important;
+}
+.clsBanner{
+    background: url('../images/banner.jpg') no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: top center;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+.clsBanner h2{
+    font-size:26px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsBanner h1{
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsBanner p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+}
+.clsBanner a{
+    border-radius: 2px;
+    background-color: #723a80;
+    border: 0.8908209806157354px solid #ffffff;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 24px;
+    margin-top: 6px;
+    display: inline-block;
+    font-weight: 600;
+}
+.clsBanner a:hover{
+    background-color: #da7e2a;
+    text-decoration: none;
+}
+.clsApps {
+    background: #eaeaea;
+    padding: 30px 0;
+}
+.clsApps ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clsApps ul li{
+    margin-left: 20px;
+}
+.clsApps ul li a img{
+    height: 60px;
+}
+.clsContentArea h4{
+    font-size: 26px;
+    color: #2c90b7;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsContentArea h3{
+    font-size:46px;
+    color: #2c90b7;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsContentArea p{
+    font-size: 18px;
+    color: #333;
+}
+.clsContentArea h5{
+    font-size: 21px;
+    color: #2c90b7;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsCellNumber{
+    font-size: 34px;
+    color: #2c90b7;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsCellNumber:hover{
+    text-decoration: none;
+    color: #2c90b7;
+}
+.clsContactForm form {
+    padding-left: 50px;
+}
+.clsContactForm form input, .clsContactForm form select, .clsContactForm form textarea{
+    border: 1px solid #666666;
+    border-radius: 0;
+    height: 46px !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #333 !important;
+}
+.clsContactForm form textarea{
+height: 120px !important;
+}
+.clsContactForm ::placeholder { 
+    font-size: 16px;
+    color: #cccccc !important;
+    opacity: 1;
+}
+.clsContactForm button{
+    float: right;
+    border-radius: 0;
+    background: #2b8fb7;
+    border: none;
+    font-size: 16px;
+    padding: 8px 26px;
+    margin-top: 10px;
+}
+.clsContactForm button:hover{
+    background: #da7e2a;
+}
+footer{
+    background: #cccccc;
+    padding: 24px 0;
+}
+.clsLocation h3{
+    font-size: 15px;
+    color: #7f378c;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsLocation p{
+    font-size: 15px;
+    color: #333333;
+    font-family: 'plutocond_heavy';
+}
+.clsLocation ul{
+    list-style: none;
+}
+.clsLocation ul li, .clsLocation ul li a{
+    font-size: 15px;
+    color: #333333;
+    font-family: 'plutocond_heavy';
+}
+.clsLocation ul li a:hover{
+    text-decoration: none;
+}
+.clsColor1{
+    color: #b43775 !important;
+}
+.clsColor2{
+    color: #da7e29 !important;
+}
+.clsColor3{
+    color: #3e8fb6 !important;
+}
+.clsFooterLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /*! padding: 16px 0 10px 0; */
+}
+.clsFooterLinks li a{
+    font-size: 16px;
+    line-height: 50px;
+    color: #333;
+    margin: 0 20px;
+    position: relative;
+}
+.clsFooterLinks li a::before{
+    content: '|';
+    position: absolute;
+    left: -21px;
+}
+.clsFooterLinks li a.clsNoLine::before{
+    display: none;
+}
+.clsFooterLinks li a:hover{
+    text-decoration: none;
+}
+.clsCopytext{
+    font-size: 11px;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.clsMenu .navbar{
+    align-items: flex-end;
+}
+.clsMenu .ul.navbar-nav{
+    margin-left: 40px;
+}
+.clsMapArea{
+    margin: 60px 0;
+}
+.clsMapArea h2{
+    font-size: 28px;
+    color: #ad3963;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    margin-bottom: 0;
+}
+.clsMapArea h1{
+    font-size: 40px;
+    color: #ad3963;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+}
+.clsMapLocation{
+    margin: 20px 0 0 0;
+}
+.clsMapLocation a p{
+    font-size: 15px;
+    color: #ad3963;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+    line-height: 24px;
+    padding-top: 8px;
+}
+.clsMapLocation a:hover{
+    text-decoration: none;
+}
+.clsRightMpa{
+    text-align: center;
+}
+.clsTerms h2{
+    font-size: 28px;
+    color: #2c90b7;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+}
+.clsTerms h1{
+    font-size: 40px;
+    color: #2c90b7;
+    font-weight: bold;
+    font-family: 'plutocond_heavy';
+}
+.clsOrderList ol {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+  }
+  
+.clsOrderList ol > li {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+  }
+  
+  .clsOrderList ol > li:before {
+    display: table-cell;
+    padding-right: 0.6em;   
+  }
+  
+  .clsOrderList li ol > li {
+    margin: 0;
+  }
+  
+  .clsOrderList li ol > li:before {
+    content: counters(item, ".") " ";
+  }
+  .form-container{
+    margin-top: 50px;
+  }
+  .btn-primary1 {
+    color: #fff;
+    background-color: #c9406c;
+  }
+  .main{
+    background-color: #c9406c;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
+    
+  }
+  .form-select{
+    display: block;
+    width: 100%;
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #c9406c;
+    margin-bottom: 30px;
+  }
+  .grid{
+    float: right;
+    margin-bottom: 10px;
+  }
+.box{
+    color: #c9406c;
+}
+.form-container a{
+    color: #000000;
+    text-align: right;
+
+}
+.form-container p{
+     text-align: center;
+}

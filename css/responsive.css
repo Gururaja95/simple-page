@@ -1,0 +1,129 @@
+@media(max-width:767px){
+    header {
+        padding: 5px 0 4px 0;
+    }
+    a.navbar-brand img{
+        height: 36px;
+    }
+    .clsHelp {
+        margin: 24px 0 4px 0;
+    }
+    .clsBanner h1 {
+        font-size: 36px;
+    }
+    .clsBanner h2 {
+        font-size: 18px;
+    }
+    .clsBanner p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .clsBanner {
+        min-height: auto;
+        padding: 20px 10px;
+    }
+    .clsApps {
+        padding: 20px 0;
+    }
+    .clsApps ul li a img {
+        height: auto;
+    }
+    .clsApps ul li {
+        margin-left: 0;
+        margin-right: 14px;
+    }
+    .clsContentArea h4 {
+        font-size: 20px;
+    }
+    .clsContentArea h3 {
+        font-size: 30px;
+    }
+    .clsContentArea p {
+        font-size: 15px;
+    }
+    .clsContentArea h5 {
+        font-size: 17px;
+    }
+    .clsCellNumber {
+        font-size: 25px;
+    }
+    .clsContactForm form {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .clsLocation {
+        margin-top: 30px;
+    }
+    .clsFooterLinks {
+        display: block;
+        padding: 0;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .clsFooterLinks li a {
+        line-height: 0;
+    }
+    .clsFooterLinks li a::before {
+        display: none;
+    }
+    .clsCopytext {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    #navbarSupportedContent {
+        background: #da7e29;
+        margin-top: 10px;
+    }
+    .clsMenu .nav-link {
+        padding: 8px 10px !important;
+        color: #fff !important;
+        font-size: 17px !important;
+    }
+    .clsMenu .nav-link::after{
+        display: none;
+    }
+    .clsHelp li, .clsHelp li a {
+        font-size: 16px;
+        line-height: 6px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .clsBanner {
+        min-height: auto;
+        padding: 20px 10px;
+    }
+    a.navbar-brand img {
+        height: 50px;
+    }
+    #navbarSupportedContent {
+        background: #da7e29;
+        margin-top: 10px;
+    }
+    .clsMenu .nav-link {
+        padding: 8px 10px !important;
+        color: #fff !important;
+        font-size: 17px !important;
+    }
+    .clsMenu .nav-link::after{
+        display: none;
+    }
+    .clsHelp li, .clsHelp li a {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+    .clsTop{
+        margin-top: 20px;
+    }
+    .col-md-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 0;
+        max-width: 45%;
+      }
+}
+@media (min-width:1025px) and (max-width:1200px){
+    .clsHelp li, .clsHelp li a {
+        font-size: 17px;
+        margin-bottom: 2px;
+    }
+}
